@@ -31,7 +31,7 @@ Algorithm:
 
 ⸻
 
-Experiment 1: Print Numbers from 1 to 5
+Experiment : Print Numbers from 1 to 5
 1. Start
 2. Initialize variable i = 1
 3. While i <= 5
@@ -41,7 +41,7 @@ Experiment 1: Print Numbers from 1 to 5
 
 ⸻
 
-Experiment 2: Print Numbers from 1 to n
+Experiment : Print Numbers from 1 to n
 1. Start
 2. Input number n
 3. Initialize i = 1
@@ -52,7 +52,7 @@ Experiment 2: Print Numbers from 1 to n
 
 ⸻
 
-Experiment 3: Factorial of a Number
+Experiment : Factorial of a Number
 1. Start
 2. Input number n
 3. Initialize fact = 1
@@ -64,7 +64,7 @@ Experiment 3: Factorial of a Number
 
 ⸻
 
-Experiment 4: Fibonacci Series
+Experiment : Fibonacci Series
 1. Start
 2. Input number of terms n
 3. Initialize a = 0, b = 1
@@ -77,7 +77,55 @@ Experiment 4: Fibonacci Series
 
 ⸻
 
-Experiment 5: Sum of First n Natural Numbers
+
+
+Algorithm: Reverse of a Number (Using While Loop)
+1. Start
+2. Input number n
+3. Initialize rev = 0
+4. While n > 0
+5. Find remainder r = n % 10
+6. Update rev = (rev × 10) + r
+7. Update n = n // 10
+8. Repeat steps 4–7 until n becomes 0
+9. Display rev
+10. Stop
+
+⸻
+
+Algorithm: Palindrome Number (Using While Loop)
+1. Start
+2. Input number n
+3. Store original number in temp = n
+4. Initialize rev = 0
+5. While n > 0
+6. Find remainder r = n % 10
+7. Update rev = (rev × 10) + r
+8. Update n = n // 10
+9. After loop, compare rev with temp
+10. If rev == temp, print “Number is Palindrome”
+11. Else, print “Number is Not Palindrome”
+12. Stop
+
+
+
+Algorithm: Choose a Number from a List
+1. Start
+2. Create a list of numbers (for example: L = [10, 20, 30, 40, 50])
+3. Input a number n from the user
+4. Initialize a flag variable found = False
+5. For each element in the list
+6. If element equals n
+7. Set found = True
+8. Break the loop
+9. After loop, check the value of found
+10. If found == True, print “Number found in the list”
+11. Else, print “Number not found in the list”
+12. Stop
+
+
+
+Experiment : Sum of First n Natural Numbers
 1. Start
 2. Input number n
 3. Initialize sum = 0, i = 1
@@ -86,6 +134,8 @@ Experiment 5: Sum of First n Natural Numbers
 6. Increment i
 7. Display sum
 8. Stop
+
+
 
 ⸻
 
